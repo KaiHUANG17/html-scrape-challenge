@@ -14,10 +14,10 @@ Deliverable 2: Scrape and analyse Mars weather data, which exists in a table.
 ## Part 2: Scrape and Analyse Mars Weather Data
 
 ## References
-- # Count the occurrences of each unique value in the 'month' column
+- Count the occurrences of each unique value in the 'month' column
 month_counts = Mars_df['month'].value_counts()
 
-# Sort the result by the index (month numbers)
+- Sort the result by the index (month numbers)
 month_counts_sorted = month_counts.sort_index()
 
 print(month_counts_sorted)
